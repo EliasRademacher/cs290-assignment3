@@ -1,6 +1,17 @@
 git log --pretty=format:"Start: %nEnd: %ad %nTasks: %s" --date=rfc
 
+Start: Fri, 17 Apr 2015 14:15:00 -0700
+End: Fri, 17 Apr 2015 15:20:00 -0700
+Tasks: Finished filling out objects.js
+
+Start: Fri, 17 Apr 2015 13:15:00 -0700
+End: Fri, 17 Apr 2015 13:00:00 -0700
+Tasks: Write skeleton of MessageLog
+
 Start: Fri, 17 Apr 2015 12:47:00 -0700
+End: Fri, 17 Apr 2015 12:55:22 -0700
+Tasks: Implement returnObjectLiteral()
+
 
 Start: Fri, 17 Apr 2015 10:45:00 -0700
 End: Fri, 17 Apr 2015 11:48:13 -0700
