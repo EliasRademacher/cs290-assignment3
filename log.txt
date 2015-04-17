@@ -1,12 +1,15 @@
 git log --pretty=format:"Start: %nEnd: %ad %nTasks: %s" --date=rfc
 
-Start: Wed, 7 Jan 2015 21:42:26 -0800
-End: Wed, 7 Jan 2015 22:42:26 -0800
-Tasks: During this period I drew a diagram of the classes
-	I will be using to implement the message passing 
-	portion of the assignment.
+Start: Fri, 17 Apr 2015 09:49:00 -0700
 
-Start: Fri, 9 Jan 2015 18:00:00 -0800
-End: Fri, 9 Jan 2015 20:42:26 -0800
-Tasks: During this period I debugged for 1 hour to find 
-	a type and implement the send function of the cleint.
+Start: Thu, 16 Apr 2015 20:4:00 -0700
+End: Thu, 16 Apr 2015 20:19:50 -0700
+Tasks: Implement bar()
+
+Start: Thu, 16 Apr 2015 12:17:30 -0700
+End: Thu, 16 Apr 2015 12:22:30 -0700
+Tasks: Implement uselessFunction()
+
+Start: Thu, 16 Apr 2015 12:14:00 -0700
+End: Thu, 16 Apr 2015 12:16:41 -0700
+Tasks: Fill out log.txt with a template

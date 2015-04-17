@@ -75,5 +75,17 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
-
+function parseGit(logArray) {
+	
+	function strToGitLog(str) {
+		var timeStart = str.indexOf(" ");
+		var timeEnd = str.indexOf("\"");
+		var log = new GitLog(str.slice(0, timeStart),
+			new Date(str.slice(timeStart + 1, timeEnd - 1)),
+			str.slice(timeEnd + 1, str.length - 1));
+		return log;
+	}
+	var gitLogArray = logArray.map(strToGitLog);
+	return gitLogArray;
+}
 //end your code
