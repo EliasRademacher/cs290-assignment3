@@ -1,6 +1,10 @@
 git log --pretty=format:"Start: %nEnd: %ad %nTasks: %s" --date=rfc
 
-Start: Fri, 17 Apr 2015 09:49:00 -0700
+Start: Fri, 17 Apr 2015 12:47:00 -0700
+
+Start: Fri, 17 Apr 2015 10:45:00 -0700
+End: Fri, 17 Apr 2015 11:48:13 -0700
+Tasks: Implement parseGit()
 
 Start: Thu, 16 Apr 2015 20:4:00 -0700
 End: Thu, 16 Apr 2015 20:19:50 -0700
