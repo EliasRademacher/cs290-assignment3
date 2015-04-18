@@ -31,7 +31,7 @@ false otherwise
 */
 function isString(b) {
   //your code here
-  return undefined;
+  return (typeof(b) == "string") ? true : false;
   //end your code
 }
 
@@ -44,6 +44,6 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  return undefined;
+  return (c === null) ? true : false;
   //end your code
 }
