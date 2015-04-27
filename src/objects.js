@@ -51,12 +51,11 @@ function MessageLog(user) {
 	
 	this.logMessage = function(messageText, direction){
 		if (direction == 1) {  /* message received */
-			if (this.inbox.unshift(messageText) > 5 )
-				this.inbox.pop();
+			this.inbox.unshift(messageText)
 			this.numReceived++;
 		}
 		
-		else if (direction = 0) {  /* message sent */
+		else if (direction = 0) {  /* message sent */			
 			if (this.outbox.unshift(messageText) > 5 )
 				this.outbox.pop();
 			this.numSent++;
