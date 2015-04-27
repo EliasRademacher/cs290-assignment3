@@ -1,0 +1,56 @@
+body {
+	margin: 200px;
+}
+
+body > div:first-child {
+	margin-bottom: 50px;
+	font: 15px sans-serif;
+	font-size: 150%;
+	padding: 5px;
+}
+
+input[type="submit"] {
+	border-radius: 5px;
+	background: #6666FF;
+	color: white;
+	width: 150px;
+	padding: 0px;
+	height: 50px;
+	font-size: 80%;
+}
+
+input[type="text"] {	
+	background: #F8F8F8;
+	padding: 10px;
+	border: solid 3px #6666FF;
+	border-radius: 5px;
+	border-style: groove;
+	font-size: 80%;
+	width: 250px;
+}
+
+body > div:nth-child(2)  {
+	float: left;
+	font: 15px sans-serif;
+}
+
+body > div:nth-child(3) {
+	float: right;
+	font: 15px sans-serif;
+	
+}
+
+div > h3 {
+	font-size: 150%;
+}
+
+#gists, #favored-gists{
+	border: solid 3px #383838 ;
+	border-radius: 5px;
+	border-style: groove;
+	background: #F8F8F8;
+	width: 400px;
+	height: 500px;
+	padding: 10px;
+}
+

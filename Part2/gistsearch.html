@@ -1,0 +1,32 @@
+ <!-- filtering results based on the language is now EXTRA points, -->
+<!-- pagination is extra credit. -->
+
+<!DOCTYPE html>
+
+<!-- xhr.withCredentials = true; -->
+<!-- Access-Control-Allow-Credentials: true -->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" 
+			content="text/html; charset=UTF-8"
+			/>
+		<script src="gistsearch.js" type="text/javascript" language="javascript"></script>
+		<link rel="stylesheet" href="gistSearchStyle.css" />
+    </head>
+    <body>
+		<div>
+			<input type="text" id="text_input" name="text_input" />
+			<input type="submit" id="submit_input" value="Fetch Gists" name="Submit"/ onclick="getGists()">
+		</div>
+		<div>
+			<h3>GISTS</h3>
+			<dl id="gists">
+			</dl>	
+		</div>
+		<div>
+			<h3>Favorite GISTS</h3>
+			<dl id="favored-gists">
+			</dl>
+		</div>
+    </body>
+</html> 
